@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: black;
+  width: 100%;
+}
+
+.parent {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.parent img {
+  width: 100%;
+  display: block;
+  border: 5px solid white;
+}
+
+.firstName {
+  position: absolute;
+  color: black;
+  left: 500px;
+  top: 100px;
+  border: 2px solid green;
+  width: 66px;
+  border-radius: 33px;
+  text-align: center;
+  background-color: azure;
+  padding: 2px;
+}
+.lastName {
+  position: absolute;
+  color: black;
+  left: 500px;
+  top: 150px;
+  border: 2px solid green;
+  width: 66px;
+  border-radius: 33px;
+  text-align: center;
+  background-color: azure;
+  padding: 2px;
+}
